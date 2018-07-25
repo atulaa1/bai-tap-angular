@@ -1,0 +1,41 @@
+.container {
+  margin-bottom: 50px;
+  margin-top: 10px; }
+  .container button {
+    margin: 15px 0;
+    -webkit-box-shadow: black 5px 5px;
+    box-shadow: black 5px 5px; }
+  .container .book-item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border: 1px solid #000000;
+    margin-bottom: 10px; }
+    .container .book-item .img {
+      width: 40%;
+      height: 160px;
+      padding: 10px; }
+      .container .book-item .img img {
+        width: 100%;
+        height: 100%; }
+    .container .book-item .title {
+      background: #ffffff;
+      padding: 10px;
+      width: 60%; }
+
+.x {
+  width: 500px;
+  height: 500px;
+  background: lightgray;
+  position: absolute;
+  top: 20%;
+  left: 300px;
+  z-index: 1; }

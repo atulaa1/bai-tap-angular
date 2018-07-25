@@ -1,0 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Monospace; }
+
+footer {
+  background: lightgray;
+  padding: 30px; }
+  footer p {
+    text-align: center; }
